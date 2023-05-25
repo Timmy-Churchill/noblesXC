@@ -116,15 +116,17 @@ export default StyleSheet.create({
         marginTop: '45%'
     } ,
     name4: {
-      fontSize: 25,
+      fontSize: 22,
       fontWeight: 'bold',
       color: 'white',
-      marginBottom: 10,
-      fontFamily: 'Georgia'
+      fontFamily: 'Georgia',
   
     },
+    FAIcon: {
+      margin: -5
+    },
     menuCatagoriesButtons: {
-      flex: 1, backgroundColor: noblesBlue, borderRadius: 32, margin: 10, justifyContent: 'center', alignItems: 'center', borderWidth: 1, borderColor: 'white'
+      flexDirection: 'row', flex: 1, backgroundColor: noblesBlue,  alignItems: 'center', borderColor: 'white', marginRight: 20, marginBottom: 10, marginTop:10
     },
     mainPageContainer: {
       flex: 1,
